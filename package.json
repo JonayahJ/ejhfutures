@@ -1,0 +1,11 @@
+{
+  "name": "ejhfutures",
+  "version": "1.0.0",
+  "description": "EJH Futures, LLC Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonayah M. Jackson",
+  "license": "ISC"
+}
