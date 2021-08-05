@@ -3234,10 +3234,11 @@ img{
 .main-footer .logo-widget .call .email{
 	position:relative;
 	color:#000000;
-	font-size:16px;
+	font-size:20px;
 	display:block;
-	margin-top:0px;
-	text-transform:capitalize;
+	margin-top:15px;
+	margin-bottom:7px;
+	text-transform:lowercase;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
