@@ -198,7 +198,8 @@
 					<!-- Contact Form -->
 					<div class="contact-form">
 						<!-- Contact Form -->
-						<form method="post" action="mail.php" id="contact-form">
+						<form method="post" name="contact-page-form" method="POST" data-netlify="true">
+
 							<div class="row clearfix">
 								<div class="col-lg-4 col-md-6 col-sm-12 form-group">
 									<input type="text" name="name" placeholder="Name *" required>
@@ -301,7 +302,7 @@
 									<div class="text">Subscribe to our newsletter and we will inform you about latest updates and offers</div>
 									<!-- Newsletter Form -->
 									<div class="newsletter-form">
-										<form method="post" action="contact.html">
+										<form name="newsletter-footer" method="POST" data-netlify="true">
 											<div class="form-group">
 												<input type="email" name="email" value="" placeholder="Email Address..." required>
 												<button type="submit" class="theme-btn icofont-arrow-right"></button>
