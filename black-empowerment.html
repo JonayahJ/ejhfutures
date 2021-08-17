@@ -58,7 +58,7 @@
 						<!-- Info List -->
 						<ul class="info-list">
 							<li><a href="mailto:michael@ejhfutures.com"><span class="icon icofont-envelope"></span> michael@ejhfutures.com</a></li>
-							<li><a href="tel:+1212-226-3126"><span class="icon icofont-phone"></span> +1 123-456-7890</a></li>
+							<li><a href="tel:+1802-598-8495"><span class="icon icofont-phone"></span> +1 802-598-8495</a></li>
 							<!-- <li><a href="contact.html"><span class="icon icofont-clock-time"></span> Mon - Sat: 8.00 - 17.00, Sunday Closed</a></li> -->
 						</ul>
 					</div>
@@ -226,7 +226,7 @@
 								</div>
 							</div>
 							
-							<!-- News Block Four -->
+							<!-- News Block Four
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
@@ -237,7 +237,7 @@
 										<h4><a href="blog-detail.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consequatur culpa recusandae?</a></h4>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							
 						</div>
 					</div>
@@ -251,38 +251,26 @@
 		<div class="lower-section">
 			<div class="auto-container">
 				<!-- Comment Form -->
-				<div class="comment-form">
-					<div class="group-title">
-						<h3>Leave A Reply</h3>
-						<div class="comment-text">Your email address will not be published</div>
-					</div>
-					<!--Comment Form-->
-					<form method="post" action="blog.html">
-						<div class="row clearfix">
-							<div class="col-md-12 col-sm-12 col-xs-12 form-group">
-								<input type="text" name="username" placeholder="Name *" required>
-							</div>
+				<div id="disqus_thread"></div>
+				<script>
+					/**
+					*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+					*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+					
+					var disqus_config = function () {
+					this.page.url = "http://www.ejhfutures.com/black-empowerment.html";  // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					};
+					
+					(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = 'https://www-ejhfutures-com-2.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+					})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-							<div class="col-md-6 col-sm-12 col-xs-12 form-group">
-								<input type="email" name="email" placeholder="Emaill Address *" required>
-							</div>
-
-							<div class="col-md-6 col-sm-12 col-xs-12 form-group">
-								<input type="text" name="text" placeholder="Subject (Optional)" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-								<textarea name="message" placeholder="Message"></textarea>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-								<button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="txt">Post Comment</span></button>
-							</div>
-
-						</div>
-					</form>
-
-				</div>
 				<!--End Comment Form -->
 			</div>
 		</div>
@@ -309,7 +297,7 @@
 									</div>
 									<div class="call">
 										Contact us directly
-										<a class="phone" href="tel:+1-123-456-7890">+1 123-456-7890</a>
+										<a class="phone" href="tel:+1-802-598-8495">+1 802-598-8495</a>
 										<a class="email" href="mailto:michael@ejhfutures.com">michael@ejhfutures.com</a>
 									</div>
 								</div>
@@ -435,6 +423,9 @@
 <script src="js/jquery.paroller.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/script.js"></script>
+
+<!-- Disqus -->
+<script id="dsq-count-scr" src="//www-ejhfutures-com-1.disqus.com/count.js" async></script>
 
 </body>
 </html>
